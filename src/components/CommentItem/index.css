@@ -1,0 +1,141 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.item-style {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.first-line-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.round-name-container {
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.name-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.name-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comment-name {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.comment-time {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #cbd2d9;
+}
+
+.comment-description {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-image {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 6px;
+}
+
+.like-button {
+  color: #7e858e;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+
+.line {
+  border: 1px solid #475569;
+  width: 100%;
+  border-top: 16px;
+}
+
+.active {
+  color: #0b69ff;
+}
